@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/486b0b0c6a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Quiz</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div>LOGO</div>
+        <div><i class="fa fa-bars"></i></div>
+    </nav>
+    <header class="img-background">
+        <div class="container-barra">
+            <div id="barra"></div>
+            <div class="divInfo">
+                <button class="btn-prev" id="prev"><i class="fa fa-arrow-left" id="prev"></i></button>
+                <div>
+                    <label id="passo"></label>
+                    <label class="passototal">/</label>
+                    <label id="passototal"></label>
+                </div>
+            </div>
+            <form id="tabForm" action="sucess.html" method="post">
+                <div class="step" id="step_1">
+                    <h1 data-id="" data-password="" class="title">Qual é o seu objetivo principal?</h1>
+                    <div class="card" data-step="1" id="1">
+                        <div class="info">
+                            <h2 class="card-title">Perder peso</h2>
+                            <p class="card-text">Comece a queimar calorias e derreter gordura</p>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="1" id="2">
+                        <div class="info">
+                            <h2 class="card-title">Ganhar músculo</h2>
+                            <p class="card-text">Forçar seus músculos a crescer mais rápido</p>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="1" id="3">
+                        <div class="info">
+                            <h2 class="card-title">Desenvolva hábitos saudáveis</h2>
+                            <p class="card-text">Diga não aos desejos de comida e torne-se um comedor saudável</p>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="step" id="step_2">
+                    <h1 class="title">Qual é a sua idade?</h1>
+                    <div class="card" data-step="2" id="1">
+                        <div class="info">
+                            <h2 class="card-title">18 - 29</h2>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="2" id="2">
+                        <div class="info">
+                            <h2 class="card-title">30 - 39</h2>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="2" id="3">
+                        <div class="info">
+                            <h2 class="card-title">40 +</h2>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="step" id="step_3">
+                    <h1 class="title">Por favor, descreva o seu dia típico</h1>
+                    <div class="card" data-step="3" id="1">
+                        <div class="info">
+                            <h2 class="card-title">No escritório</h2>
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="3" id="2">
+                        <div class="info">
+                            <h2 class="card-title">Longas Caminhadas</h2>
+
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="3" id="3">
+                        <div class="info">
+                            <h2 class="card-title">Trabalho fisico</h2>
+
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="step" id="step_4">
+                    <h1 class="title">Sua atividade física</h1>
+                    <div class="card" data-step="4" id="1">
+                        <div class="info">
+                            <h2 class="card-title">Quase Nenhum</h2>
+
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="4" id="2">
+                        <div class="info">
+                            <h2 class="card-title">Só anda</h2>
+
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                    <div class="card" data-step="4" id="3">
+                        <div class="info">
+                            <h2 class="card-title">Exercicios 3-5 vezes ao dia </h2>
+
+                        </div>
+                        <div class="check">
+                            <i class="fa fa-check-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </header>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
